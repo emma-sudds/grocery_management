@@ -1,11 +1,11 @@
-CREATE TABLE IF NOT EXISTS `latest`.`customer_stock`
-( `customer_id` INT NOT NULL
-, `item_id` INT NOT NULL
-, `item_name` VARCHAR(45) NULL
-, `purchase_tstamp` DATE NULL
-, `expiry_date` DATE NULL
-, `item_type` VARCHAR(45) NULL
-, `customer_stockcol` VARCHAR(45) NULL
-, `receipt_code` VARCHAR(45) NULL
-, PRIMARY KEY (`customer_id`, `item_id`))
+create table if not exists `latest`.`customer_stock`
+( `customer_id` int not null
+, `item_id` int not null
+, `item_name` varchar(45) null
+, `purchase_tstamp` date null
+, `expiry_date` date null
+, `item_type` varchar(45) null
+, `customer_stockcol` varchar(45) null
+, `receipt_code` varchar(45) null
+, primary key (`customer_id`, `item_id`))
 ENGINE = InnoDB

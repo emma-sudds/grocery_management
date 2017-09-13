@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `latest`.`customers` 
+create table if not exists `latest`.`customers` 
 ( `customer_id` int not null
 , `first_name` varchar(45) not null
 , `last_name` varchar(45) not null
