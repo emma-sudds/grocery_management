@@ -7,5 +7,7 @@ create table if not exists `latest`.`customer_stock`
 , `item_type` varchar(45) null
 , `customer_stockcol` varchar(45) null
 , `receipt_code` varchar(45) null
+, 'firstseen' varchar2(8) not null
+, 'lastseen' varchar2(8) not null
 , primary key (`customer_id`, `item_id`))
 ENGINE = InnoDB
